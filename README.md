@@ -87,6 +87,9 @@ Ejecutar solo los tests
 Reportes de pruebas con JUNIT:
 build/reports/tests/test/index.html
 
+Descargar y refrescar dependencias por si no de Descargan
+./gradlew clean build --refresh-dependencies
+
 El microservicio quedará disponible en:
 http://localhost:9090
 
