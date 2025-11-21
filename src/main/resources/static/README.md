@@ -1,5 +1,7 @@
 A Continuacion Se explicará paso a paso la configuracón tecnica del microservicio y como esta estructurado paso a paso
 
+#NOTA: Existe un video en la ruta src\main\resources el cual muestra el funcionamiento del microservicio y un breve recorrido en sus procesos
+
 #Microservicio de Tickets – Double V Partners  
 Microservicio desarrollado en Java 21 + Spring Boot 3.5.7, que permite crear, consultar, actualizar y eliminar tickets, además de manejar autenticación JWT, caché, filtros y validaciones avanzadas.
 
