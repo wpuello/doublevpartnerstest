@@ -1,0 +1,31 @@
+app fabricada con graddle
+
+Ejecucion
+./gradlew bootRun
+
+Rebuild
+./gradlew clean build
+
+Rebuild sin test
+./gradlew build -x test
+
+Ejecutar solo Pruebas
+./gradlew test
+
+Ejecutar solo Pruebas Especificas
+./gradlew test --tests "tickets.doublevpartnets.tickets.Presentation.Controllers.Tickets.*"
+
+Descargar y refrescar dependencias
+./gradlew clean build --refresh-dependencies
+
+Acceso a la Base de Datos H2
+http://localhost:9090/h2-console
+
+Acceso a Documentación con Swagger
+http://localhost:9090/swagger-ui/index.html
+
+Url para Pruebas
+file:///D:/PROYECTOS%20PERSONALES/DOUBLE%20V%20PARTNERS/tickets/build/reports/tests/test/index.html
+
+Pruebas Ejecucion
+gradlew test
